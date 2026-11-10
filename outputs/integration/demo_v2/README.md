@@ -1,0 +1,11 @@
+# SYNTHETIC DEMO
+
+本目录由运行脚本生成。合成演示用于实现验证，不能作为歌曲实验结果。
+
+`results.json` 保存来源哈希、真实采样范围、分析定义、滤波系数和数值；`config_used.json` 保存本次配置。图表与 raw_analysis 使用共同输出衰减前的数据。
+
+schema_version=2：CSV 的 estimated_export_peak_fs 为量化前预计峰值，decoded_export_peak_fs 为读取实际导出 WAV 测得的样本峰值，二者因量化可有微小差异。
+
+所有 WAV 使用同一个增益 1.000000000 (0.0000 dB)，不会逐首、逐预设自动归一化。comparison_original.wav 是用于对比的另存副本，输入文件保留。
+
+时间戳相对于所选片段开始；加 source.start_s 得到原文件时间。最高有效频率由显式相对阈值估计，会受噪声、窗泄漏和阈值影响，不能当成精确的信号频带边缘。

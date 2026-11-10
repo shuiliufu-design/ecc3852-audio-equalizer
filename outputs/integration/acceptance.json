@@ -1,0 +1,68 @@
+{
+  "date_local": "2026-11-10",
+  "prechange_handoff_inventory": {
+    "checked": 46,
+    "mismatches": []
+  },
+  "current_unchanged_evidence_count": 42,
+  "changed_files_with_verified_baseline_archives": [
+    {
+      "path": "PROJECT_PLAN.md",
+      "baseline_archive": "outputs/integration/baseline_snapshot/PROJECT_PLAN.md"
+    },
+    {
+      "path": "STATUS.md",
+      "baseline_archive": "outputs/integration/baseline_snapshot/STATUS.md"
+    },
+    {
+      "path": "src/ecc3852/pipeline.py",
+      "baseline_archive": "outputs/integration/baseline_snapshot/src/ecc3852/pipeline.py"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "baseline_archive": "outputs/integration/baseline_snapshot/tests/test_pipeline.py"
+    }
+  ],
+  "schema2_wav_checks": [
+    {
+      "setting": "original",
+      "estimated_peak": 0.16499900817871094,
+      "decoded_peak": 0.16499900817871094,
+      "matches_baseline_wav_exactly": true
+    },
+    {
+      "setting": "flat",
+      "estimated_peak": 0.16499900817871094,
+      "decoded_peak": 0.16499900817871094,
+      "matches_baseline_wav_exactly": true
+    },
+    {
+      "setting": "bass_boost",
+      "estimated_peak": 0.3028744654053621,
+      "decoded_peak": 0.30287444591522217,
+      "matches_baseline_wav_exactly": true
+    },
+    {
+      "setting": "mid_cut",
+      "estimated_peak": 0.16294253476637888,
+      "decoded_peak": 0.1629425287246704,
+      "matches_baseline_wav_exactly": true
+    },
+    {
+      "setting": "treble_boost",
+      "estimated_peak": 0.1691189254938803,
+      "decoded_peak": 0.16911888122558594,
+      "matches_baseline_wav_exactly": true
+    }
+  ],
+  "schema2_result": "outputs/integration/demo_v2/results.json",
+  "test_log": "outputs/integration/validation.log",
+  "formal_music": false,
+  "devices_or_gui_retested_by_main": false,
+  "integration_tests": {
+    "passed": 53,
+    "failed": 0,
+    "elapsed_s": 1.423
+  },
+  "integration_review": "report/INTEGRATION_REVIEW.md"
+}

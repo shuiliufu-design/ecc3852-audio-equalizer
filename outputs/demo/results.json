@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "signal_kind": "synthetic_demo",
+  "is_formal_music_experiment": false,
+  "note": "Synthetic implementation check; not song evidence.",
+  "created_utc": "2026-11-10T08:20:17.907269+00:00",
+  "source": {
+    "path": "/Users/ma/Documents/ChatGPT/ECC3852 Assignment/audio/demo/synthetic_demo.wav",
+    "sha256": "0c39c234a5601242086a1205f0c4e18447f08cd67e1265facc657efecf6e23b1",
+    "format": "WAV",
+    "subtype": "PCM_24",
+    "original_samples": 529200,
+    "original_duration_s": 12.0,
+    "start_sample": 0,
+    "start_s": 0.0,
+    "end_sample_exclusive": 529200,
+    "end_s_exclusive": 12.0,
+    "sample_rate_hz": 44100,
+    "channels": 2
+  },
+  "analysis_time_origin": "selected segment start; add source.start_s for original-file time",
+  "original_analysis": {
+    "sample_rate_hz": 44100.0,
+    "channels": 2,
+    "samples": 529200,
+    "duration_s": 12.0,
+    "absolute_peak": {
+      "amplitude": 0.16499900817871094,
+      "signed_value": -0.16499900817871094,
+      "sample_index": 146302,
+      "time_s": 3.31750566893424,
+      "channel": 1
+    },
+    "signed_maximum": {
+      "amplitude": 0.16499876976013184,
+      "signed_value": 0.16499876976013184,
+      "sample_index": 48179,
+      "time_s": 1.0924943310657595,
+      "channel": 1
+    },
+    "rms": 0.07366733134580505,
+    "rms_per_channel": [
+      0.08120332433581315,
+      0.06526692525346961
+    ],
+    "dc_per_channel": [
+      -5.9309549973214656e-08,
+      -5.9323741555304036e-08
+    ],
+    "strongest_time_frequency_bin": {
+      "frequency_hz": 107.666015625,
+      "time_s": 0.13507936507936508,
+      "psd": 0.00017259044690722463
+    },
+    "highest_significant_frequency": {
+      "frequency_hz": 10012.939453125,
+      "time_s": 11.97151927437642,
+      "threshold_db_relative_to_peak": -40.0,
+      "psd": 1.6879798845267972e-07
+    },
+    "dominant_frequency_hz": 102.28271484375,
+    "band_power_fraction": {
+      "low": 0.5574082321342122,
+      "mid": 0.3087537596010756,
+      "high": 0.1338380082647119
+    },
+    "band_edges_hz": [
+      200.0,
+      4000.0
+    ],
+    "nyquist_hz": 22050.0,
+    "spectral_settings": {
+      "window": "periodic Hann",
+      "window_samples": 1323,
+      "window_ms": 30.0,
+      "requested_window_ms": 30.0,
+      "hop_samples": 331,
+      "overlap_fraction_actual": 0.7498110355253212,
+      "nfft": 2048,
+      "frequency_bin_width_hz": 21.533203125,
+      "frame_step_s": 0.007505668934240363,
+      "frame_count": 1595,
+      "welch_window_samples": 8192,
+      "channel_aggregation": "arithmetic mean of per-channel powers; no waveform downmix",
+      "time_reference": "seconds from first input sample; centers of fully contained windows",
+      "threshold_definition": "PSD >= global spectrogram peak * 10**(threshold_dB/10); sensitive to noise and leakage",
+      "significance_threshold_db": -40.0,
+      "psd_units": "sample_amplitude_squared_per_hz",
+      "frequency_resolution_note": "FFT bin spacing is not window resolving power; zero padding interpolates the spectrum"
+    }
+  },
+  "presets": {
+    "flat": {
+      "settings": {
+        "bass_db": 0.0,
+        "mid_db": 0.0,
+        "treble_db": 0.0,
+        "bass_hz": 200.0,
+        "mid_hz": 1000.0,
+        "treble_hz": 4000.0,
+        "mid_q": 1.0
+      },
+      "sos": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "raw_analysis": {
+        "sample_rate_hz": 44100.0,
+        "channels": 2,
+        "samples": 529200,
+        "duration_s": 12.0,
+        "absolute_peak": {
+          "amplitude": 0.16499900817871094,
+          "signed_value": -0.16499900817871094,
+          "sample_index": 146302,
+          "time_s": 3.31750566893424,
+          "channel": 1
+        },
+        "signed_maximum": {
+          "amplitude": 0.16499876976013184,
+          "signed_value": 0.16499876976013184,
+          "sample_index": 48179,
+          "time_s": 1.0924943310657595,
+          "channel": 1
+        },
+        "rms": 0.07366733134580505,
+        "rms_per_channel": [
+          0.08120332433580116,
+          0.06526692525345397
+        ],
+        "dc_per_channel": [
+          -5.9309549973214656e-08,
+          -5.9323741555304036e-08
+        ],
+        "strongest_time_frequency_bin": {
+          "frequency_hz": 107.666015625,
+          "time_s": 0.13507936507936508,
+          "psd": 0.00017259044690722463
+        },
+        "highest_significant_frequency": {
+          "frequency_hz": 10012.939453125,
+          "time_s": 11.97151927437642,
+          "threshold_db_relative_to_peak": -40.0,
+          "psd": 1.6879798845267972e-07
+        },
+        "dominant_frequency_hz": 102.28271484375,
+        "band_power_fraction": {
+          "low": 0.5574082321342122,
+          "mid": 0.3087537596010756,
+          "high": 0.1338380082647119
+        },
+        "band_edges_hz": [
+          200.0,
+          4000.0
+        ],
+        "nyquist_hz": 22050.0,
+        "spectral_settings": {
+          "window": "periodic Hann",
+          "window_samples": 1323,
+          "window_ms": 30.0,
+          "requested_window_ms": 30.0,
+          "hop_samples": 331,
+          "overlap_fraction_actual": 0.7498110355253212,
+          "nfft": 2048,
+          "frequency_bin_width_hz": 21.533203125,
+          "frame_step_s": 0.007505668934240363,
+          "frame_count": 1595,
+          "welch_window_samples": 8192,
+          "channel_aggregation": "arithmetic mean of per-channel powers; no waveform downmix",
+          "time_reference": "seconds from first input sample; centers of fully contained windows",
+          "threshold_definition": "PSD >= global spectrogram peak * 10**(threshold_dB/10); sensitive to noise and leakage",
+          "significance_threshold_db": -40.0,
+          "psd_units": "sample_amplitude_squared_per_hz",
+          "frequency_resolution_note": "FFT bin spacing is not window resolving power; zero padding interpolates the spectrum"
+        }
+      },
+      "export": {
+        "file": "flat.wav",
+        "sha256": "0c39c234a5601242086a1205f0c4e18447f08cd67e1265facc657efecf6e23b1",
+        "sample_rate_hz": 44100,
+        "samples": 529200,
+        "channels": 2,
+        "decoded_peak": 0.16499900817871094,
+        "raw_samples_at_or_above_full_scale": 0,
+        "common_gain_linear": 1.0
+      }
+    },
+    "bass_boost": {
+      "settings": {
+        "bass_db": 6.0,
+        "mid_db": 0.0,
+        "treble_db": 0.0,
+        "bass_hz": 200.0,
+        "mid_hz": 1000.0,
+        "treble_hz": 4000.0,
+        "mid_q": 1.0
+      },
+      "sos": [
+        [
+          1.007017439791199,
+          -1.9658144542115286,
+          0.9599248308465048,
+          1.0,
+          -1.966095738827279,
+          0.9666609860219529
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "raw_analysis": {
+        "sample_rate_hz": 44100.0,
+        "channels": 2,
+        "samples": 529200,
+        "duration_s": 12.0,
+        "absolute_peak": {
+          "amplitude": 0.3028744654053621,
+          "signed_value": 0.3028744654053621,
+          "sample_index": 4541,
+          "time_s": 0.10297052154195012,
+          "channel": 1
+        },
+        "signed_maximum": {
+          "amplitude": 0.3028744654053621,
+          "signed_value": 0.3028744654053621,
+          "sample_index": 4541,
+          "time_s": 0.10297052154195012,
+          "channel": 1
+        },
+        "rms": 0.11599261664339534,
+        "rms_per_channel": [
+          0.12799771282543726,
+          0.10259220118030533
+        ],
+        "dc_per_channel": [
+          -1.1833447730234154e-07,
+          -1.1836298666688901e-07
+        ],
+        "strongest_time_frequency_bin": {
+          "frequency_hz": 107.666015625,
+          "time_s": 0.13507936507936508,
+          "psd": 0.0006300934460268272
+        },
+        "highest_significant_frequency": {
+          "frequency_hz": 10012.939453125,
+          "time_s": 11.97151927437642,
+          "threshold_db_relative_to_peak": -40.0,
+          "psd": 1.687974681919896e-07
+        },
+        "dominant_frequency_hz": 102.28271484375,
+        "band_power_fraction": {
+          "low": 0.8211103262970776,
+          "mid": 0.12488934339936839,
+          "high": 0.05400033030355428
+        },
+        "band_edges_hz": [
+          200.0,
+          4000.0
+        ],
+        "nyquist_hz": 22050.0,
+        "spectral_settings": {
+          "window": "periodic Hann",
+          "window_samples": 1323,
+          "window_ms": 30.0,
+          "requested_window_ms": 30.0,
+          "hop_samples": 331,
+          "overlap_fraction_actual": 0.7498110355253212,
+          "nfft": 2048,
+          "frequency_bin_width_hz": 21.533203125,
+          "frame_step_s": 0.007505668934240363,
+          "frame_count": 1595,
+          "welch_window_samples": 8192,
+          "channel_aggregation": "arithmetic mean of per-channel powers; no waveform downmix",
+          "time_reference": "seconds from first input sample; centers of fully contained windows",
+          "threshold_definition": "PSD >= global spectrogram peak * 10**(threshold_dB/10); sensitive to noise and leakage",
+          "significance_threshold_db": -40.0,
+          "psd_units": "sample_amplitude_squared_per_hz",
+          "frequency_resolution_note": "FFT bin spacing is not window resolving power; zero padding interpolates the spectrum"
+        }
+      },
+      "export": {
+        "file": "bass_boost.wav",
+        "sha256": "4ad1e13b0806f977ffb1fb4144fd50a200ca225e3347692edb4745ecb87de032",
+        "sample_rate_hz": 44100,
+        "samples": 529200,
+        "channels": 2,
+        "decoded_peak": 0.30287444591522217,
+        "raw_samples_at_or_above_full_scale": 0,
+        "common_gain_linear": 1.0
+      }
+    },
+    "mid_cut": {
+      "settings": {
+        "bass_db": 0.0,
+        "mid_db": -6.0,
+        "treble_db": 0.0,
+        "bass_hz": 200.0,
+        "mid_hz": 1000.0,
+        "treble_hz": 4000.0,
+        "mid_q": 1.0
+      },
+      "sos": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9545354514389318,
+          -1.7992909761222717,
+          0.863173510215447,
+          1.0,
+          -1.7992909761222717,
+          0.8177089616543789
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "raw_analysis": {
+        "sample_rate_hz": 44100.0,
+        "channels": 2,
+        "samples": 529200,
+        "duration_s": 12.0,
+        "absolute_peak": {
+          "amplitude": 0.16294253476637888,
+          "signed_value": 0.16294253476637888,
+          "sample_index": 173428,
+          "time_s": 3.9326077097505667,
+          "channel": 1
+        },
+        "signed_maximum": {
+          "amplitude": 0.16294253476637888,
+          "signed_value": 0.16294253476637888,
+          "sample_index": 173428,
+          "time_s": 3.9326077097505667,
+          "channel": 1
+        },
+        "rms": 0.0642943525542248,
+        "rms_per_channel": [
+          0.07085697162894046,
+          0.056980848645044185
+        ],
+        "dc_per_channel": [
+          -5.930900413222929e-08,
+          -5.9323317897967917e-08
+        ],
+        "strongest_time_frequency_bin": {
+          "frequency_hz": 107.666015625,
+          "time_s": 0.13507936507936508,
+          "psd": 0.00017003131486491904
+        },
+        "highest_significant_frequency": {
+          "frequency_hz": 10012.939453125,
+          "time_s": 11.97151927437642,
+          "threshold_db_relative_to_peak": -40.0,
+          "psd": 1.6707011467579948e-07
+        },
+        "dominant_frequency_hz": 102.28271484375,
+        "band_power_fraction": {
+          "low": 0.7214993215271089,
+          "mid": 0.10614346950022541,
+          "high": 0.17235720897266546
+        },
+        "band_edges_hz": [
+          200.0,
+          4000.0
+        ],
+        "nyquist_hz": 22050.0,
+        "spectral_settings": {
+          "window": "periodic Hann",
+          "window_samples": 1323,
+          "window_ms": 30.0,
+          "requested_window_ms": 30.0,
+          "hop_samples": 331,
+          "overlap_fraction_actual": 0.7498110355253212,
+          "nfft": 2048,
+          "frequency_bin_width_hz": 21.533203125,
+          "frame_step_s": 0.007505668934240363,
+          "frame_count": 1595,
+          "welch_window_samples": 8192,
+          "channel_aggregation": "arithmetic mean of per-channel powers; no waveform downmix",
+          "time_reference": "seconds from first input sample; centers of fully contained windows",
+          "threshold_definition": "PSD >= global spectrogram peak * 10**(threshold_dB/10); sensitive to noise and leakage",
+          "significance_threshold_db": -40.0,
+          "psd_units": "sample_amplitude_squared_per_hz",
+          "frequency_resolution_note": "FFT bin spacing is not window resolving power; zero padding interpolates the spectrum"
+        }
+      },
+      "export": {
+        "file": "mid_cut.wav",
+        "sha256": "a2d96d70b758eadacfa268d67a2b0b28fefa890d44e9dc5441c67d1180dc98d8",
+        "sample_rate_hz": 44100,
+        "samples": 529200,
+        "channels": 2,
+        "decoded_peak": 0.1629425287246704,
+        "raw_samples_at_or_above_full_scale": 0,
+        "common_gain_linear": 1.0
+      }
+    },
+    "treble_boost": {
+      "settings": {
+        "bass_db": 0.0,
+        "mid_db": 0.0,
+        "treble_db": 6.0,
+        "bass_hz": 200.0,
+        "mid_hz": 1000.0,
+        "treble_hz": 4000.0,
+        "mid_q": 1.0
+      },
+      "sos": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.7426953753133634,
+          -2.3229106738504917,
+          0.8806750146670683,
+          1.0,
+          -1.0892766034972206,
+          0.3897363196271611
+        ]
+      ],
+      "raw_analysis": {
+        "sample_rate_hz": 44100.0,
+        "channels": 2,
+        "samples": 529200,
+        "duration_s": 12.0,
+        "absolute_peak": {
+          "amplitude": 0.1691189254938803,
+          "signed_value": 0.1691189254938803,
+          "sample_index": 173862,
+          "time_s": 3.9424489795918367,
+          "channel": 1
+        },
+        "signed_maximum": {
+          "amplitude": 0.1691189254938803,
+          "signed_value": 0.1691189254938803,
+          "sample_index": 173862,
+          "time_s": 3.9424489795918367,
+          "channel": 1
+        },
+        "rms": 0.08612621913241288,
+        "rms_per_channel": [
+          0.09479034615863742,
+          0.0764868715480931
+        ],
+        "dc_per_channel": [
+          -5.9309518508386434e-08,
+          -5.9323773332025e-08
+        ],
+        "strongest_time_frequency_bin": {
+          "frequency_hz": 8010.3515625,
+          "time_s": 9.562199546485262,
+          "psd": 0.00019522060813131092
+        },
+        "highest_significant_frequency": {
+          "frequency_hz": 10034.47265625,
+          "time_s": 11.979024943310659,
+          "threshold_db_relative_to_peak": -40.0,
+          "psd": 4.737814295525246e-08
+        },
+        "dominant_frequency_hz": 7999.5849609375,
+        "band_power_fraction": {
+          "low": 0.40823381369147294,
+          "mid": 0.22871694419452973,
+          "high": 0.36304924211399753
+        },
+        "band_edges_hz": [
+          200.0,
+          4000.0
+        ],
+        "nyquist_hz": 22050.0,
+        "spectral_settings": {
+          "window": "periodic Hann",
+          "window_samples": 1323,
+          "window_ms": 30.0,
+          "requested_window_ms": 30.0,
+          "hop_samples": 331,
+          "overlap_fraction_actual": 0.7498110355253212,
+          "nfft": 2048,
+          "frequency_bin_width_hz": 21.533203125,
+          "frame_step_s": 0.007505668934240363,
+          "frame_count": 1595,
+          "welch_window_samples": 8192,
+          "channel_aggregation": "arithmetic mean of per-channel powers; no waveform downmix",
+          "time_reference": "seconds from first input sample; centers of fully contained windows",
+          "threshold_definition": "PSD >= global spectrogram peak * 10**(threshold_dB/10); sensitive to noise and leakage",
+          "significance_threshold_db": -40.0,
+          "psd_units": "sample_amplitude_squared_per_hz",
+          "frequency_resolution_note": "FFT bin spacing is not window resolving power; zero padding interpolates the spectrum"
+        }
+      },
+      "export": {
+        "file": "treble_boost.wav",
+        "sha256": "d48dfecb6a58b30172771f8e5cf4e0051ac138365a38771532e4dec787cb0899",
+        "sample_rate_hz": 44100,
+        "samples": 529200,
+        "channels": 2,
+        "decoded_peak": 0.16911888122558594,
+        "raw_samples_at_or_above_full_scale": 0,
+        "common_gain_linear": 1.0
+      }
+    }
+  },
+  "export": {
+    "policy": "one_shared_attenuation_for_input_and_all_presets_never_boost",
+    "common_gain_linear": 1.0,
+    "common_gain_db": 0.0,
+    "subtype": "PCM_24",
+    "peak_ceiling": 0.95,
+    "original_comparison_file": "comparison_original.wav",
+    "plot_and_raw_analysis_reference": "before common export attenuation"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "soundfile": "0.14.0"
+  }
+}

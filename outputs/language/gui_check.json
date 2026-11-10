@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-11-10T19:33:54.171730+08:00",
+  "kind": "Tk widget smoke test with fake audio backend",
+  "checks": [
+    "demo metadata and stopped controls",
+    "three independent gains and reset handler",
+    "continuous dragging submits gains before the drag ends",
+    "playing controls, output device and overload status",
+    "error display and retry controls",
+    "requested layout fits default and minimum window sizes",
+    "window close closes player"
+  ],
+  "result": "passed",
+  "screenshot_review": "not_performed: widget-tree checks only",
+  "layout_sizes": [
+    {
+      "window": [
+        820,
+        720
+      ],
+      "required": [
+        696,
+        650
+      ]
+    },
+    {
+      "window": [
+        720,
+        700
+      ],
+      "required": [
+        696,
+        650
+      ]
+    }
+  ]
+}

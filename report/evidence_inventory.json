@@ -1,0 +1,292 @@
+{
+  "snapshot_date_local": "2026-11-10",
+  "timezone": "Asia/Kuala_Lumpur",
+  "scope": "Core/offline synthetic verification plus separately handed-over synthetic player evidence; no formal music or human listening.",
+  "run_created_utc": "2026-11-10T08:20:17.907269+00:00",
+  "signal_kind": "synthetic_demo",
+  "is_formal_music_experiment": false,
+  "source": {
+    "path": "/Users/ma/Documents/ChatGPT/ECC3852 Assignment/audio/demo/synthetic_demo.wav",
+    "sha256": "0c39c234a5601242086a1205f0c4e18447f08cd67e1265facc657efecf6e23b1",
+    "format": "WAV",
+    "subtype": "PCM_24",
+    "original_samples": 529200,
+    "original_duration_s": 12.0,
+    "start_sample": 0,
+    "start_s": 0.0,
+    "end_sample_exclusive": 529200,
+    "end_s_exclusive": 12.0,
+    "sample_rate_hz": 44100,
+    "channels": 2
+  },
+  "recorded_environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "soundfile": "0.14.0"
+  },
+  "result_pointers": {
+    "peak": "/original_analysis/absolute_peak",
+    "rms": "/original_analysis/rms",
+    "strongest_psd_bin": "/original_analysis/strongest_time_frequency_bin",
+    "highest_significant_frequency": "/original_analysis/highest_significant_frequency",
+    "window_parameters": "/original_analysis/spectral_settings",
+    "preset_coefficients": "/presets/{preset}/sos",
+    "actual_export_peak": "/presets/{preset}/export/decoded_peak"
+  },
+  "test_record": {
+    "path": "outputs/validation.log",
+    "command": ".venv/bin/python run.py test",
+    "saved_result": "29 tests; OK",
+    "rerun_by_report_preparation": false
+  },
+  "report_cross_check": "report/verification.json",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 1611,
+      "sha256": "b44e2ca29edf5e0d172b7887544525bad20fce023a7848372f48b03e026a5d63"
+    },
+    {
+      "path": "PROJECT_PLAN.md",
+      "bytes": 5369,
+      "sha256": "72b56c169b81dbb857e5331836a0299d7267e8d50781dc4b37bd0a0ad8925b2a"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 5723,
+      "sha256": "228f3ae11a631f9422a777afd0af092ce45ff8f169edee23b2d16a53e7462969",
+      "initial_read_sha256": "3296f23a07a79045dd18200a573334fdb495f61b269eddc8f1ec97f4851ae480",
+      "note": "Updated shared documentation reread after player handoff completed; original read hash retained."
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 3334,
+      "sha256": "bc9962695a47fe3f0bcf0f5ab5e970a3c99b24468fafe7bffadc11e044033408",
+      "initial_read_sha256": "c41e7951550f6a2fda55e5b74c8b59b587335ace7503b1f22c779c0734d092d8",
+      "note": "Updated shared documentation reread after player handoff completed; original read hash retained."
+    },
+    {
+      "path": "config.json",
+      "bytes": 703,
+      "sha256": "5f76be3fe73a61430b041b1e96e13a8bb34dc9c0416393902f4c0b47c9789cc7"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 315,
+      "sha256": "353a8637f22ee28aa2ad1ee4451164308545c7756f844389cdf8d48e503fb19c"
+    },
+    {
+      "path": "run.py",
+      "bytes": 280,
+      "sha256": "9a77b5e7878e6f0ccf5ad035d1efcbbbdaa335dd7caddda9b5b51b246321041b"
+    },
+    {
+      "path": "src/ecc3852/__init__.py",
+      "bytes": 95,
+      "sha256": "246f84933c9b2f53371a65998bfe94d238734428386ede2ddd667fcf11c9f521"
+    },
+    {
+      "path": "src/ecc3852/analysis.py",
+      "bytes": 8458,
+      "sha256": "499c8288498c91cced0c68d09e6cad48b71ebf8a79b8496f048c0b2095b17717"
+    },
+    {
+      "path": "src/ecc3852/audio_io.py",
+      "bytes": 3755,
+      "sha256": "c44e33db8619e9ccee4f0e59b69549c57b575ddc95d4ea724db754654948ba2f"
+    },
+    {
+      "path": "src/ecc3852/cli.py",
+      "bytes": 2623,
+      "sha256": "53ab768a2158b9377a34c76d394591e64eeb2545dc3b43b3afa90ed539713453"
+    },
+    {
+      "path": "src/ecc3852/demo.py",
+      "bytes": 1860,
+      "sha256": "9e7ddf7c7b99727b11913c055ff45a203b8cfb44f43f5ff7062827b6921e2aa5"
+    },
+    {
+      "path": "src/ecc3852/equalizer.py",
+      "bytes": 8012,
+      "sha256": "43855ea0f5236d32335ef6711203d8a317f84dec3730877ddaeb35984e0b901c"
+    },
+    {
+      "path": "src/ecc3852/pipeline.py",
+      "bytes": 9237,
+      "sha256": "82b959b32d9acb31c087a047885f415f0d69dfb4629a976946d493ba01e4cd45"
+    },
+    {
+      "path": "src/ecc3852/plots.py",
+      "bytes": 4822,
+      "sha256": "9308eed7bf5e6b3ba00248323fcc28d5d6354cc61ea2fd16d5cfb63d0b16e7a9"
+    },
+    {
+      "path": "tests/test_analysis.py",
+      "bytes": 6310,
+      "sha256": "887ecdae70fa4271ba093b5d8196773adb2d5953dfa4dbfec7a44f203c628d4e"
+    },
+    {
+      "path": "tests/test_equalizer.py",
+      "bytes": 6323,
+      "sha256": "56b87b5e5467037263fb4bc733961e30d752418fab103168a8ccdf12124dbdc3"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 11342,
+      "sha256": "9b3477b884c997c1ed1899d2f91dec551dbde4f7a80f08461f991bcc49e85a0c"
+    },
+    {
+      "path": "audio/demo/synthetic_demo.wav",
+      "bytes": 3175244,
+      "sha256": "0c39c234a5601242086a1205f0c4e18447f08cd67e1265facc657efecf6e23b1"
+    },
+    {
+      "path": "audio/demo/signal_manifest.json",
+      "bytes": 740,
+      "sha256": "6799d12c166c67cf89be6256935a3d26736e214486e7c41e70dd1f3b6859d3b2"
+    },
+    {
+      "path": "outputs/validation.log",
+      "bytes": 4249,
+      "sha256": "934b67619567b784abd12a6f68d9728df2f2afb0b8bb40a2584b796691f488dc"
+    },
+    {
+      "path": "outputs/demo/results.json",
+      "bytes": 17772,
+      "sha256": "46b2cd3d79fd69a86342bf2f3743ba8298f77dc89adcf895e9db5540ada82b45"
+    },
+    {
+      "path": "outputs/demo/config_used.json",
+      "bytes": 817,
+      "sha256": "ea5e7388e026be2dc27197c4a5c93d929fb482acf04ad2d5f8db0f06cb657eb5"
+    },
+    {
+      "path": "outputs/demo/summary.csv",
+      "bytes": 428,
+      "sha256": "9356b06cf9a818e1504a88e8f2d51a7a149b06a2a9819878a08b53a13362ea39"
+    },
+    {
+      "path": "outputs/demo/01_original_analysis.png",
+      "bytes": 144086,
+      "sha256": "dd6937dbdee5c141f1daf14f4080b432e67549e221b2eceeba6ee90d26b3a0cc"
+    },
+    {
+      "path": "outputs/demo/02_equalizer_responses.png",
+      "bytes": 71694,
+      "sha256": "3af04d219c3204378bdaa69495d78580469a673e2558771880970c17e477d74a"
+    },
+    {
+      "path": "outputs/demo/03_psd_comparison.png",
+      "bytes": 122873,
+      "sha256": "c3b9cbebf2f2ca1a897edd4e53747c1e95b92529916034ba930c3c3c9ac06ca5"
+    },
+    {
+      "path": "outputs/demo/04_spectrogram_comparison.png",
+      "bytes": 213199,
+      "sha256": "21096a825843e1869c634fd75365897a472f528a4a2c25293186dff58fe34abe"
+    },
+    {
+      "path": "outputs/demo/bass_boost.wav",
+      "bytes": 3175244,
+      "sha256": "4ad1e13b0806f977ffb1fb4144fd50a200ca225e3347692edb4745ecb87de032"
+    },
+    {
+      "path": "outputs/demo/comparison_original.wav",
+      "bytes": 3175244,
+      "sha256": "0c39c234a5601242086a1205f0c4e18447f08cd67e1265facc657efecf6e23b1"
+    },
+    {
+      "path": "outputs/demo/flat.wav",
+      "bytes": 3175244,
+      "sha256": "0c39c234a5601242086a1205f0c4e18447f08cd67e1265facc657efecf6e23b1"
+    },
+    {
+      "path": "outputs/demo/mid_cut.wav",
+      "bytes": 3175244,
+      "sha256": "a2d96d70b758eadacfa268d67a2b0b28fefa890d44e9dc5441c67d1180dc98d8"
+    },
+    {
+      "path": "outputs/demo/treble_boost.wav",
+      "bytes": 3175244,
+      "sha256": "d48dfecb6a58b30172771f8e5cf4e0051ac138365a38771532e4dec787cb0899"
+    },
+    {
+      "path": "references/assignment_page_1.png",
+      "bytes": 318801,
+      "sha256": "b333f62169a04f5013e7cd471d85460203a3f64b48196fa5501d0d6db31bc793"
+    }
+  ],
+  "player_handoff_files": [
+    {
+      "path": "PLAYER_HANDOFF.md",
+      "bytes": 7841,
+      "sha256": "c7f11d954a04392c3211ab15b366427277107a9e3696d3ad803a1ee2cb17b8c4"
+    },
+    {
+      "path": "src/ecc3852/player.py",
+      "bytes": 15905,
+      "sha256": "ec21a75336ea8bb5f98221f33aea57a7dc6a7aed4acfd1a0532e0c4cd1b5fdec"
+    },
+    {
+      "path": "src/ecc3852/gui.py",
+      "bytes": 9057,
+      "sha256": "f3bd5a3afe74be823ca6b354d6da13a2e378061a115688cc33aea35aed94d137"
+    },
+    {
+      "path": "tests/test_player.py",
+      "bytes": 21582,
+      "sha256": "13a89bbf1f13b1ce3c068d8db9e535f3aecc66729fec5bb1b166383c4e278a6b"
+    },
+    {
+      "path": "play.py",
+      "bytes": 1545,
+      "sha256": "1032f078b6ab849a32159bb09d33a421fbf8ec3f22ab3b9a6c21a3c686c432b1"
+    },
+    {
+      "path": "requirements-player.txt",
+      "bytes": 121,
+      "sha256": "7a044953635e5081ec180563ab2c0bb6edf71afab6e19ded632722e408adb75d"
+    },
+    {
+      "path": "scripts/setup_player.sh",
+      "bytes": 675,
+      "sha256": "fddafcfa30048fe5c7de79664462f1263e167c7c007b8ce4f8e868bd4fee9db3"
+    },
+    {
+      "path": "scripts/check_audio_output.py",
+      "bytes": 5150,
+      "sha256": "21dfe5c25810eba9f860adcef1567ae1b802f6b8af0f043b226e44baba56a6d1"
+    },
+    {
+      "path": "scripts/check_player_gui.py",
+      "bytes": 5968,
+      "sha256": "e66cc372035785696ac874af9221afad51de25e5919cf5626c9bbb938fbc7ebc"
+    },
+    {
+      "path": "outputs/player/device_check.json",
+      "bytes": 25238,
+      "sha256": "be81a575d407aae98eb56001b2a62618797482443ecef0d873d79c89eb25ec15"
+    },
+    {
+      "path": "outputs/player/gui_check.json",
+      "bytes": 853,
+      "sha256": "36a37aea5c416072eb92d4147456385172507ea2fbdfe148a868e70854f8c0ed"
+    },
+    {
+      "path": "outputs/player/validation.log",
+      "bytes": 8179,
+      "sha256": "be154368bd1dcf138e0ce685120637f5b858942e4c35a61adb52707b9c49d543"
+    }
+  ],
+  "player_handoff_review": {
+    "record": "report/real_time_evidence.md",
+    "latest_saved_test_result": "53 tests; OK; baseline 29 plus player 24",
+    "test_log": "outputs/player/validation.log",
+    "rerun_by_report_preparation": false,
+    "device_test_rerun": false,
+    "human_listening": false,
+    "gui_screenshot_review": false
+  }
+}

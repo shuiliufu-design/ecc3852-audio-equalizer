@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "signal_kind": "synthetic_listening_demo",
+  "is_music": false,
+  "description": "Steady simultaneous 120, 1000 and 6000 Hz tones; no frequency sweep",
+  "duration_s": 60.0,
+  "sample_rate_hz": 44100,
+  "channels": 2,
+  "components": [
+    {
+      "band": "bass",
+      "frequency_hz": 120.0,
+      "left_amplitude": 0.13,
+      "right_amplitude": 0.10400000000000001
+    },
+    {
+      "band": "mid",
+      "frequency_hz": 1000.0,
+      "left_amplitude": 0.1,
+      "right_amplitude": 0.08000000000000002
+    },
+    {
+      "band": "treble",
+      "frequency_hz": 6000.0,
+      "left_amplitude": 0.06,
+      "right_amplitude": 0.048
+    }
+  ],
+  "boundary_fade_ms": 50,
+  "purpose": "Audible A/B comparison of band levels; not formal music evidence"
+}

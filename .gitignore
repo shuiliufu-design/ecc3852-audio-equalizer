@@ -1,0 +1,23 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+# Local credentials, editor settings and temporary work.
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.idea/
+.vscode/
+tmp/
+
+# Preserve the small original synthetic fixture; regenerate other audio locally.
+audio/demo/*.wav
+!audio/demo/synthetic_demo.wav
+audio/original/*
+!audio/original/.gitkeep
+outputs/music/
+outputs/**/*.wav
+outputs/integration/baseline_snapshot/

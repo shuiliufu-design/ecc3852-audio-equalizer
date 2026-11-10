@@ -1,0 +1,61 @@
+{
+  "date_local": "2026-11-10",
+  "timezone": "Asia/Kuala_Lumpur",
+  "kind": "read_only_synthetic_cross_check",
+  "full_test_suite_rerun": false,
+  "source_hash_matches": true,
+  "pcm24_step": 1.1920928955078125e-07,
+  "presets": {
+    "flat": {
+      "raw_peak_fs": 0.16499900817871094,
+      "raw_rms_fs": 0.07366733134580505,
+      "decoded_peak_fs": 0.16499900817871094,
+      "pcm24_max_abs_error": 0.0,
+      "max_pole_magnitude": 0.0,
+      "max_abs_difference_from_input": 0.0
+    },
+    "bass_boost": {
+      "raw_peak_fs": 0.3028744654053621,
+      "raw_rms_fs": 0.11599261664339534,
+      "decoded_peak_fs": 0.30287444591522217,
+      "pcm24_max_abs_error": 1.1897636311569704e-07,
+      "max_pole_magnitude": 0.9831891913675379
+    },
+    "mid_cut": {
+      "raw_peak_fs": 0.16294253476637888,
+      "raw_rms_fs": 0.0642943525542248,
+      "decoded_peak_fs": 0.1629425287246704,
+      "pcm24_max_abs_error": 1.1897629541984811e-07,
+      "max_pole_magnitude": 0.9042726146767792
+    },
+    "treble_boost": {
+      "raw_peak_fs": 0.1691189254938803,
+      "raw_rms_fs": 0.08612621913241288,
+      "decoded_peak_fs": 0.16911888122558594,
+      "pcm24_max_abs_error": 1.1897640998792536e-07,
+      "max_pole_magnitude": 0.624288650887681
+    }
+  },
+  "shelf_midpoint_checks": [
+    {
+      "control": "bass",
+      "requested_db": 6,
+      "frequency_hz": 200,
+      "response_db": 2.9999999999996074
+    },
+    {
+      "control": "mid",
+      "requested_db": 6,
+      "frequency_hz": 1000,
+      "response_db": 5.999999999999998
+    },
+    {
+      "control": "treble",
+      "requested_db": 6,
+      "frequency_hz": 4000,
+      "response_db": 2.999999999999998
+    }
+  ],
+  "csv_bass_export_peak_predicted_fs": 0.3028744654053621,
+  "json_bass_export_peak_decoded_fs": 0.30287444591522217
+}

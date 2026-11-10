@@ -1,0 +1,135 @@
+{
+  "kind": "Worker output diagnosis with paced capturing stream; no audio device",
+  "sample_rate_hz": 44100,
+  "frequency_hz": 1000,
+  "fixed_playback_gain_db": -18,
+  "measurement_method": "Least-squares sinusoid amplitude on settled output slices, away from crossfades and ramps",
+  "stages": [
+    {
+      "label": "flat",
+      "expected_eq_db": 0.0,
+      "measurement_start_sample": 8820,
+      "measurement_end_sample": 17640,
+      "input_tone_amplitude_fs": 0.11999999954337277,
+      "written_float32_tone_amplitude_fs": 0.01510710489484414,
+      "measured_eq_db_after_removing_fixed_playback_gain": 6.209557208713241e-09
+    },
+    {
+      "label": "mid_+12_db",
+      "expected_eq_db": 12.0,
+      "requested_at_sample": 22528,
+      "requested_settings": {
+        "bass_db": 0.0,
+        "mid_db": 12.0,
+        "treble_db": 0.0,
+        "bass_hz": 200.0,
+        "mid_hz": 1000.0,
+        "treble_hz": 4000.0,
+        "mid_q": 1.0
+      },
+      "applied_settings": {
+        "bass_db": 0.0,
+        "mid_db": 12.0,
+        "treble_db": 0.0,
+        "bass_hz": 200.0,
+        "mid_hz": 1000.0,
+        "treble_hz": 4000.0,
+        "mid_q": 1.0
+      },
+      "measurement_start_sample": 31348,
+      "measurement_end_sample": 44578,
+      "input_tone_amplitude_fs": 0.11999999954337277,
+      "written_float32_tone_amplitude_fs": 0.060142467828952176,
+      "measured_eq_db_after_removing_fixed_playback_gain": 12.00000000325458
+    },
+    {
+      "label": "mid_-12_db",
+      "expected_eq_db": -12.0,
+      "requested_at_sample": 49152,
+      "requested_settings": {
+        "bass_db": 0.0,
+        "mid_db": -12.0,
+        "treble_db": 0.0,
+        "bass_hz": 200.0,
+        "mid_hz": 1000.0,
+        "treble_hz": 4000.0,
+        "mid_q": 1.0
+      },
+      "applied_settings": {
+        "bass_db": 0.0,
+        "mid_db": -12.0,
+        "treble_db": 0.0,
+        "bass_hz": 200.0,
+        "mid_hz": 1000.0,
+        "treble_hz": 4000.0,
+        "mid_q": 1.0
+      },
+      "measurement_start_sample": 57972,
+      "measurement_end_sample": 71202,
+      "input_tone_amplitude_fs": 0.11999999954337268,
+      "written_float32_tone_amplitude_fs": 0.0037947331792626705,
+      "measured_eq_db_after_removing_fixed_playback_gain": -11.999999996565595
+    }
+  ],
+  "last_snapshot": {
+    "state": "playing",
+    "path": "/Users/ma/Documents/ChatGPT/ECC3852 Assignment/outputs/audibility/diagnostic_1000hz.wav",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "position_samples": 75776,
+    "total_samples": 220500,
+    "volume_db": -18,
+    "peak_before_limit": 0.06014209253990106,
+    "limited_samples": 0,
+    "underflows": 0,
+    "latency_s": 0.05,
+    "device": {
+      "name": "test stream"
+    },
+    "error": null,
+    "settings": {
+      "bass_db": 0.0,
+      "mid_db": -12.0,
+      "treble_db": 0.0,
+      "bass_hz": 200.0,
+      "mid_hz": 1000.0,
+      "treble_hz": 4000.0,
+      "mid_q": 1.0
+    },
+    "max_processing_s": 0.0012910000514239073,
+    "source": {
+      "path": "/Users/ma/Documents/ChatGPT/ECC3852 Assignment/outputs/audibility/diagnostic_1000hz.wav",
+      "sha256": "787ae121db14202fefd335608a82774ef6635c1e17f1011b5773ced0123c5ca5",
+      "format": "WAV",
+      "subtype": "PCM_24",
+      "original_samples": 220500,
+      "original_duration_s": 5.0,
+      "start_sample": 0,
+      "start_s": 0.0,
+      "end_sample_exclusive": 220500,
+      "end_s_exclusive": 5.0,
+      "sample_rate_hz": 44100,
+      "channels": 2
+    },
+    "transitioning": false,
+    "requested_settings": {
+      "bass_db": 0.0,
+      "mid_db": -12.0,
+      "treble_db": 0.0,
+      "bass_hz": 200.0,
+      "mid_hz": 1000.0,
+      "treble_hz": 4000.0,
+      "mid_q": 1.0
+    }
+  },
+  "measured_boost_to_cut_difference_db": 23.999999999820176,
+  "human_listening_performed": false,
+  "actual_audio_device_accessed": false,
+  "result": "passed",
+  "original_demo_mid_plus_8_tone_response_db": {
+    "100": 0.091986875110388,
+    "1000": 8.000000000000005,
+    "8000": 0.11459127855015985
+  },
+  "interpretation": "The original demo changes dominant tone every four seconds. Mid gain has little effect on the dominant 100 Hz and 8000 Hz segments. Fixed playback attenuation does not remove the relative EQ gain change. No hardware audibility conclusion is made."
+}

@@ -1,0 +1,36 @@
+{
+  "record_kind": "music_source_and_experiment_review_template",
+  "status": "awaiting_song_selection",
+  "note": "Unfilled template. No music source or experiment is approved by this record.",
+  "song": {
+    "title": null,
+    "artist_or_author": null,
+    "version": null,
+    "source_url_or_acquisition_method": null,
+    "acquisition_date_local": null
+  },
+  "source_file": {
+    "path": null,
+    "sha256": null,
+    "source_confirmation_date_local": null,
+    "source_confirmation_evidence": null
+  },
+  "experiment": {
+    "actual_start_sample": null,
+    "actual_end_sample_exclusive": null,
+    "segment_choice_rationale": null,
+    "output_directory": null,
+    "results_sha256": null,
+    "config_used_sha256": null,
+    "command": null
+  },
+  "completion": {
+    "source_confirmed": false,
+    "music_analysis_completed": false,
+    "design_rationale_recorded": false,
+    "human_listening_recorded": false,
+    "gui_screenshot_reviewed": false,
+    "longer_music_playback_checked": false,
+    "report_updated": false
+  }
+}

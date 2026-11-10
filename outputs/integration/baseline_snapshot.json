@@ -1,0 +1,41 @@
+{
+  "date_local": "2026-11-10",
+  "note": "Pre-integration source and docs snapshot. Existing report evidence inventory remains unchanged.",
+  "files": [
+    {
+      "path": "src/ecc3852/pipeline.py",
+      "archive": "outputs/integration/baseline_snapshot/src/ecc3852/pipeline.py",
+      "sha256": "82b959b32d9acb31c087a047885f415f0d69dfb4629a976946d493ba01e4cd45"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "archive": "outputs/integration/baseline_snapshot/tests/test_pipeline.py",
+      "sha256": "9b3477b884c997c1ed1899d2f91dec551dbde4f7a80f08461f991bcc49e85a0c"
+    },
+    {
+      "path": "STATUS.md",
+      "archive": "outputs/integration/baseline_snapshot/STATUS.md",
+      "sha256": "228f3ae11a631f9422a777afd0af092ce45ff8f169edee23b2d16a53e7462969"
+    },
+    {
+      "path": "PROJECT_PLAN.md",
+      "archive": "outputs/integration/baseline_snapshot/PROJECT_PLAN.md",
+      "sha256": "72b56c169b81dbb857e5331836a0299d7267e8d50781dc4b37bd0a0ad8925b2a"
+    },
+    {
+      "path": "README.md",
+      "archive": "outputs/integration/baseline_snapshot/README.md",
+      "sha256": "95f418c79e287b4f9848f2a4c8c93cbcd1ab382eece91a3cf9968b957f458099"
+    },
+    {
+      "path": "report/draft.md",
+      "archive": "outputs/integration/baseline_snapshot/report/draft.md",
+      "sha256": "de3bac7a4225cae8d1634ec764c50fc975abe9b6638199451fe2a114836e10ce"
+    },
+    {
+      "path": "report/music_experiment_plan.md",
+      "archive": "outputs/integration/baseline_snapshot/report/music_experiment_plan.md",
+      "sha256": "2ef45c8ad71302944072c4d9731bb830b75f3111fe6848dc03ad6042929ab67b"
+    }
+  ]
+}

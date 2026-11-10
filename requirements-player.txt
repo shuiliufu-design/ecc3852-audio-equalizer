@@ -1,0 +1,3 @@
+# Optional desktop playback dependencies. Offline commands stay independent.
+-r requirements-lock.txt
+sounddevice==0.5.6

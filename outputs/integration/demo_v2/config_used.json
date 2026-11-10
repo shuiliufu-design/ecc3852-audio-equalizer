@@ -1,0 +1,44 @@
+{
+  "analysis": {
+    "window_ms": 30.0,
+    "overlap_fraction": 0.75,
+    "significance_threshold_db": -40.0,
+    "band_edges_hz": [
+      200.0,
+      4000.0
+    ]
+  },
+  "equalizer": {
+    "bass_hz": 200.0,
+    "mid_hz": 1000.0,
+    "treble_hz": 4000.0,
+    "mid_q": 1.0
+  },
+  "presets": {
+    "flat": {
+      "bass_db": 0.0,
+      "mid_db": 0.0,
+      "treble_db": 0.0
+    },
+    "bass_boost": {
+      "bass_db": 6.0,
+      "mid_db": 0.0,
+      "treble_db": 0.0
+    },
+    "mid_cut": {
+      "bass_db": 0.0,
+      "mid_db": -6.0,
+      "treble_db": 0.0
+    },
+    "treble_boost": {
+      "bass_db": 0.0,
+      "mid_db": 0.0,
+      "treble_db": 6.0
+    }
+  },
+  "export": {
+    "subtype": "PCM_24",
+    "peak_ceiling": 0.95,
+    "gain_policy": "one_shared_attenuation_for_input_and_all_presets_never_boost"
+  }
+}
