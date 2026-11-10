@@ -21,3 +21,5 @@ audio/original/*
 outputs/music/
 outputs/**/*.wav
 outputs/integration/baseline_snapshot/
+outputs/github/*.jpg
+outputs/github/*.png

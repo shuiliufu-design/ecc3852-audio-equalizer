@@ -71,6 +71,8 @@
 
 ## 下一步与待补充
 
+GitHub协作已发布：私有仓库 https://github.com/shuiliufu-design/ecc3852-audio-equalizer ，主分支main。本次按用户要求只上传、不邀请协作者。首个提交adcf5f9已成功推送，远端SHA核对一致；该提交包含89个文件约4.42 MiB，从提交重新导出后55项测试通过（1.564 s）。验证日志outputs/github/fresh_checkout_validation.log。虚拟环境、缓存、临时文件、原始歌曲和可再生大型音频均已排除，保留原12秒合成基线。已补英文CONTRIBUTING.md、docs/TEAM_SETUP.md、README克隆入口和PR模板。GitHub CLI已通过用户授权登录，后续组员可在获得仓库权限后克隆、分支开发并提交PR。
+
 1. 新合成示例的基本听感差异已获用户确认；接下来选择正式歌曲，保留原文件和来源，再开展音乐实验，当前无音乐结论。
 2. 用户可运行 `.venv/bin/python play.py` 完成可见界面检查、实际听感记录和较长时间音乐播放；当前实机证据为合成音频的短时验证，见 `PLAYER_HANDOFF.md`。
 3. 报告已有工作稿、方法、合成验证和来源；有正式音乐结果后填写音乐结果与讨论，并按INTEGRATION_REVIEW.md使用新版字段语义。

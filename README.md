@@ -19,6 +19,13 @@ The existing `outputs/demo/` directory is the schema-1 baseline cited by the rep
 
 For a fresh clone and platform-specific commands, start with [Team setup](docs/TEAM_SETUP.md). Use the branch and pull-request workflow in [Contributing](CONTRIBUTING.md) when working with teammates.
 
+The shared repository is [shuiliufu-design/ecc3852-audio-equalizer](https://github.com/shuiliufu-design/ecc3852-audio-equalizer). Repository access is required before cloning:
+
+```sh
+git clone https://github.com/shuiliufu-design/ecc3852-audio-equalizer.git
+cd ecc3852-audio-equalizer
+```
+
 The verified environment uses Python 3.12.14, NumPy 2.5.4, SciPy 1.18.1, Matplotlib 3.11.2, and SoundFile 0.14.0. Exact offline dependency versions are recorded in `requirements-lock.txt`; `.venv/` is the project-local environment.
 
 On another Mac, install Python 3.12 or later, then run:
